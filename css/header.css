@@ -1,0 +1,198 @@
+@import "./global.css";
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.4rem;
+  margin-bottom: 7rem;
+}
+
+.header__link {
+  font-size: 1.6rem;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  padding: 1.4rem 4.5rem;
+  border-radius: 2rem;
+}
+.header-description {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.3rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 8rem;
+}
+.header-title {
+  color: var(--black-color);
+  line-height: 1.26;
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+.header-subtitle {
+  color: var(--medium-brown-color);
+  line-height: 1.5;
+  font-size: 1.8rem;
+  font-weight: 500;
+  max-width: 680px;
+  text-align: center;
+}
+
+.images__box {
+  display: flex;
+  gap: 2.4rem;
+  justify-content: space-between;
+  margin-bottom: 13.6rem;
+}
+.graphic-ux-illustration {
+  display: flex;
+  gap: 2.4rem;
+  width: 200%;
+}
+.graphic__designe {
+  background: url(../images/graphic-designe.svg) no-repeat right 2.4rem top
+    2.4rem;
+  position: relative;
+  background-color: var(--primary-color);
+  height: 364px;
+  width: 100%;
+  border-radius: 8px;
+}
+.design__boxs {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 100%;
+}
+.app-ux__box {
+  display: flex;
+  gap: 2.4rem;
+}
+.ux-ui,
+.app {
+  position: relative;
+  height: 182px;
+  width: 100%;
+  border-radius: 8px;
+}
+.ux-ui {
+  background: url(../images/ui-ux.svg) no-repeat right 2.4rem top 2.4rem;
+  background-color: var(--summer-yelow);
+}
+.app {
+  background: url(../images/apps.svg) no-repeat right 2.4rem top 2.4rem;
+  background-color: var(--pinc-color);
+}
+.illustration,
+.motion {
+  position: relative;
+  width: 100%;
+  height: 158px;
+  border-radius: 8px;
+}
+.illustration {
+  background: url(../images/illustrations.svg) no-repeat right 2.4rem top 2.4rem;
+  background-color: var(--light-red-color);
+}
+.motion {
+  background: url(../images/motion-graphic.svg) no-repeat right 2.4rem top
+    2.4rem;
+  background-color: var(--siyoh-color);
+}
+.photography-motion {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 100%;
+}
+.photography {
+  background: url(../images/photography.svg) no-repeat right 2.4rem top 2.4rem;
+  position: relative;
+  width: 100%;
+  background-color: var(--medium-brown-color);
+  height: 182px;
+  border-radius: 8px;
+}
+.designe__title {
+  position: absolute;
+  bottom: 2.4rem;
+  left: 2.4rem;
+  color: var(--white-color);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+/* main */
+
+@media (max-width: 1000px) {
+  .container {
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
+  }
+  .header-description {
+    gap: 2.7rem;
+    margin-bottom: 8rem;
+  }
+  .header-title {
+    font-size: 4.4rem;
+    max-width: 690px;
+  }
+  .header-subtitle {
+    max-width: 573px;
+  }
+  /* images */
+  .images__box {
+    flex-direction: column;
+  }
+  .graphic-ux-illustration {
+    width: 100%;
+  }
+  .photography-motion {
+    flex-direction: row;
+  }
+  .photography {
+    border-radius: 0;
+  }
+  .motion {
+    height: 182px;
+    border-radius: 0;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+  .header-description {
+    gap: 1.6rem;
+    margin-bottom: 3.2rem;
+  }
+  .header-title {
+    font-size: 3.6rem;
+    max-width: 343px;
+  }
+  .header-subtitle {
+    max-width: 258px;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  /* images */
+  .images__box {
+    flex-direction: column;
+  }
+  .graphic-ux-illustration {
+    width: 100%;
+    flex-direction: column;
+  }
+  .photography-motion {
+    flex-direction: column;
+  }
+  .photography {
+    border-radius: 8px;
+  }
+  .motion {
+    height: 182px;
+    border-radius: 8px;
+  }
+}

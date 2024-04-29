@@ -4,21 +4,129 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+
     <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
   </head>
   <body>
     <!-- HEADER START -->
-    <header class="header"></header>
+    <header class="header">
+      <div class="header-hero">
+        <nav class="navbar container">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="" />
+          </div>
+          <a class="header__link" href="#">Free Consultation</a>
+        </nav>
+        <div class="header-description container">
+          <h1 class="header-title">Design solutions made easy</h1>
+          <p class="header-subtitle">
+            With over ten years of experience in various design disciplines, I’m
+            your one-stop shop for your design needs.
+          </p>
+        </div>
+        <div class="images__box container">
+          <div class="graphic-ux-illustration">
+            <div class="graphic__designe">
+              <p class="designe__title">Graphic Designe</p>
+            </div>
+
+            <div class="design__boxs">
+              <div class="app-ux__box">
+                <div class="ux-ui">
+                  <p class="designe__title">UX/UI</p>
+                </div>
+                <div class="app">
+                  <p class="designe__title">App</p>
+                </div>
+              </div>
+              <div class="illustration">
+                <p class="designe__title">illustration</p>
+              </div>
+            </div>
+          </div>
+          <div class="photography-motion">
+            <div class="photography">
+              <p class="designe__title">Photography</p>
+            </div>
+            <div class="motion">
+              <p class="designe__title">Motion Graphics</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- HEADER END -->
 
     <!-- MAIN START -->
-    <main class="main"></main>
+    <main class="main">
+      <div class="main-box container">
+        <div class="main-box__avatar">
+          <img src="./images/women.png" alt="avatar" class="avatar" />
+        </div>
+        <div class="main-box__description">
+          <h1 class="main-box__description__title">
+            I’m Amy, and I’d love to work on your next project
+          </h1>
+          <p class="main-box__description__subtitle">
+            I love working with others to create beautiful design solutions.
+            I’ve designed everything from brand illustrations to complete mobile
+            apps. I’m also handy with a camera!
+          </p>
+          <a href="#" class="btn">Free Consultation</a>
+        </div>
+      </div>
+
+      <!-- slayd -->
+      <div class="myWork container">
+        <h1 class="myWork__title">My Work</h1>
+        <div class="slider container">
+          <div class="slides">
+            <img src="./images/crop-1.jpg" alt="Image 1" class="img-slide" />
+            <img src="./images/crop-2.jpg" alt="Image 1" class="img-slide" />
+            <img src="./images/crop-3.jpg" alt="Image 1" class="img-slide" />
+            <img src="./images/crop-4.jpg" alt="Image 1" class="img-slide" />
+            <img src="./images/crop-5.jpg" alt="Image 1" class="img-slide" />
+          </div>
+          <!-- Tugmalar -->
+        </div>
+        <div class="btn-box container">
+          <button class="prev">
+            <img src="./images/arrow-left1.png" alt="" />
+          </button>
+          <button class="next">
+            <img src="./images/arrow-right1.png" alt="" />
+          </button>
+        </div>
+      </div>
+
+      <!-- slayd -->
+    </main>
     <!-- MAIN END -->
 
     <!-- FOOTER START -->
-    <footer class="footer"></footer>
+    <footer class="footer container">
+      <div class="footer-section">
+        <div class="footer-section__description">
+          <h1 class="footer-section__description__title">
+            Book a call with me
+          </h1>
+          <p class="footer-section__description__subtitle">
+            I’d love to have a chat to see how I can help you. The best first
+            step is for us to discuss your project during a free consultation.
+            Then we can move forward from there.
+          </p>
+        </div>
+        <a href="#" class="btn-footer btn">Free Consultation</a>
+      </div>
+      <nav class="navbar container">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="" />
+        </div>
+        <a class="header__link" href="#">Free Consultation</a>
+      </nav>
+    </footer>
     <!-- FOOTER END -->
+    <script src="./app.js"></script>
   </body>
 </html>
